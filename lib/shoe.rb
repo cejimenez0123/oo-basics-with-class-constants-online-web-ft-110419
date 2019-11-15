@@ -6,10 +6,10 @@ BRANDS =[]
     @brand = brand
     def add_to
   BRANDS.push(brand) if !BRANDS.include?(brand)
-    
+
   end
-    
-    
+
+
   end
 
   def cobble
