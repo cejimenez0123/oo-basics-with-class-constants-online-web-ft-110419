@@ -5,9 +5,10 @@ BRANDS =[]
   def initialize(brand)
     @brand = brand
     def add_to
-  BRANDS.push(brand) if !BRANDS.include?(brand)
-
-  end
+  if BRANDS.include?(brand)
+    nil
+  else  BRANDS.push(brand)
+    end
 
 
   end
