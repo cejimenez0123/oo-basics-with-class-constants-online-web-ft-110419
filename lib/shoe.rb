@@ -7,7 +7,7 @@ BRANDS =[]
   end
 def brand=(brand)
   @brand = brand
-  BRANDS << @brand
+  BRANDS.push(@brand)
 end
   def cobble
     self.condition = "new"
