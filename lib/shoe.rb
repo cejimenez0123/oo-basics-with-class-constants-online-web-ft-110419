@@ -5,8 +5,6 @@ BRANDS =[]
   def initialize(brand)
     @brand = brand
   BRANDS.push(brand) if !BRANDS.include?(brand)
-
-
 end
 
 
