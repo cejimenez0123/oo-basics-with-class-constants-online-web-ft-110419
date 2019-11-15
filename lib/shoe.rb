@@ -4,14 +4,11 @@ class Shoe
 BRANDS =[]
   def initialize(brand)
     @brand = brand
-    def add_to
-  if BRANDS.include?(brand)
-    nil
-  else  BRANDS.push(brand)
-    end
+  BRANDS.push(brand) if !BRANDS.include?(brand)
+    
+ 
 end
 
-  end
 
   def cobble
     self.condition = "new"
